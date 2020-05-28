@@ -1,5 +1,7 @@
 # Sigi framework `CRA` example
 
+![](https://github.com/sigi-framework/cra-example/workflows/Check/badge.svg)
+
 ## Customize babel config in `CRA` project
 
 ### 1. Install dependencies and babel plugins
