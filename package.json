@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.10.0",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^10.4.0",
