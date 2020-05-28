@@ -9,7 +9,7 @@
     "@sigi/react": "^2.0.2",
     "@sigi/react-router": "^2.0.2",
     "@sigi/ssr": "^2.0.2",
-    "immer": "^6.0.8",
+    "immer": "^6.0.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "reflect-metadata": "^0.1.13",
