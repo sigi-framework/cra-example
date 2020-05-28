@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { useModule } from '@sigi/react'
+
+import { AppModule } from './app.module'
 
 function App() {
+  const [state, dispatcher] = useModule(AppModule)
+  const click = React.useCallback(() => dispatcher.do(), [dispatcher])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {state.count}
+      <button onClick={click}>add</button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
