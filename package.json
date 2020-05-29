@@ -47,7 +47,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "babel-plugin-transform-typescript-metadata": "^0.3.0",
-    "customize-cra": "^0.9.1",
+    "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.6",
     "react-scripts": "3.4.1"
   }
