@@ -1321,15 +1321,15 @@
     "@sigi/core" "^2.0.2"
     "@sigi/react" "^2.0.2"
 
-"@sigi/react@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.0.2.tgz#59e253a62b627ecdae40842f68016fd7c2863666"
-  integrity sha512-fLTaCGRzFXdCm/89ysYIEPHE27UIsx0k57dUx/z0TXp4fk3cka+x6KdiwW2WvLGfFaHCyaUlcN27N7JFknFTKg==
+"@sigi/react@^2.0.2", "@sigi/react@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.1.0.tgz#04b8da875c5639724bb688d65d0a523a588878d4"
+  integrity sha512-0VRsnWo/qRCK6apHL0bMiHPEK7IGm/HwIZ4zGzoRvOTjuCdrDP9GtoQXNTxissVF/OfF6Xhp0MVJIOeAH9JHOQ==
   dependencies:
-    "@sigi/core" "^2.0.2"
+    "@sigi/core" "^2.1.0"
     "@sigi/di" "^2.0.0"
-    "@sigi/ssr" "^2.0.2"
-    "@sigi/types" "^2.0.0"
+    "@sigi/ssr" "^2.1.0"
+    "@sigi/types" "^2.1.0"
 
 "@sigi/ssr@^2.0.2", "@sigi/ssr@^2.1.0":
   version "2.1.0"
