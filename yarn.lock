@@ -1300,13 +1300,13 @@
     "@sigi/types" "^2.1.0"
     immer "^6.0.9"
 
-"@sigi/devtool@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.0.2.tgz#7b4edea56cff95b397fa9c5af78050525e6e120e"
-  integrity sha512-PWcYtAIJlSxbBPtrBgiDRd1ddpcd9DIevyqLRDJg6vQ2q+k/eTGTiSUdH7GeBbKZv/86CEeNShyvbT2hYVb7Cg==
+"@sigi/devtool@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.1.0.tgz#d144a6262cbd32fd0a838782f9bc88aa6dacd811"
+  integrity sha512-sm/oFq6Oci7evejykD+LLWVhMn6CynEavsjRf0AQPHc3u2raCfIqqzJ1JaGaBSgRF1FRrD23Z3C8z0GzoujFOw==
   dependencies:
-    "@sigi/core" "^2.0.2"
-    "@sigi/types" "^2.0.0"
+    "@sigi/core" "^2.1.0"
+    "@sigi/types" "^2.1.0"
 
 "@sigi/di@^2.0.0":
   version "2.0.0"
