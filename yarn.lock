@@ -1313,15 +1313,15 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.0.0.tgz#f882aafcbdba56054b61f618be5630ec5a06734f"
   integrity sha512-dkvI39ThhbQFi3nQ7Lp9Pe3PWLpfUhcYIjcjyA/W4mcyJpLNRoHEwId7W/qD7h3z/vchZ7n3jbKOle7U9QxCKQ==
 
-"@sigi/react-router@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.0.2.tgz#b259dbec64010137960ceba88138f4d3efd58e20"
-  integrity sha512-tFUInzTDL94hUTV4oc1wFpM98/WSi3IZZslgUFv/iwaXMcmBvtxZ9DX6pya7ncFXrW5YzH5Lr26DxAUhbJhSKQ==
+"@sigi/react-router@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.1.0.tgz#7138f7eb91be49bfe4ce6746ca1795e3d445022d"
+  integrity sha512-L0ii7UtPhIQl/aUXCp2b0gNgKrDeIGcbrhNxzLCDNqHmQsSRH+j67d57ox9B2Vtf/AnwttGGC67l2h0Sy3O26g==
   dependencies:
-    "@sigi/core" "^2.0.2"
-    "@sigi/react" "^2.0.2"
+    "@sigi/core" "^2.1.0"
+    "@sigi/react" "^2.1.0"
 
-"@sigi/react@^2.0.2", "@sigi/react@^2.1.0":
+"@sigi/react@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.1.0.tgz#04b8da875c5639724bb688d65d0a523a588878d4"
   integrity sha512-0VRsnWo/qRCK6apHL0bMiHPEK7IGm/HwIZ4zGzoRvOTjuCdrDP9GtoQXNTxissVF/OfF6Xhp0MVJIOeAH9JHOQ==
@@ -1331,7 +1331,7 @@
     "@sigi/ssr" "^2.1.0"
     "@sigi/types" "^2.1.0"
 
-"@sigi/ssr@^2.0.2", "@sigi/ssr@^2.1.0":
+"@sigi/ssr@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.1.0.tgz#9c6a4f20ca037dabcefa0cc4dacfc59e9983771e"
   integrity sha512-sAJfagkN2Kt4QI+ELJYio90ZjmauMWmjYjulJMS7NxI1A1EwdiGm6v+/v57Pd7oSC0sOtcrWLPk+tKKZjABEwg==
@@ -1341,7 +1341,7 @@
     "@sigi/types" "^2.1.0"
     serialize-javascript "^3.1.0"
 
-"@sigi/types@^2.0.0", "@sigi/types@^2.1.0":
+"@sigi/types@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.1.0.tgz#aa5df4d0ec8c7fd1dfbc4bd0843d8bd47ed5ef41"
   integrity sha512-yNgZWtVwyLBr8SdQuHBr6wM2l7zASb7Dxr8Mwch6Vz2FQWJgDagFCr2yjfQQjFini/NfvAWuv+zaeib0IT6Yxw==
