@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@sigi/core": "^2.0.2",
+    "@sigi/core": "^2.2.0",
     "@sigi/devtool": "^2.1.0",
     "@sigi/di": "^2.0.0",
     "@sigi/react": "^2.1.0",
