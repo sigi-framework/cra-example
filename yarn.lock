@@ -1313,11 +1313,6 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.3.1.tgz#5e79831acd0fdd95bc299afea54d1f22bb2928e2"
   integrity sha512-GQXcKIwjYwc6np8JgsZuerS3N/x1FXlJ2pSPyUlXBI4kahrXU6SRf5Q0f8Izf+nZKiKTrEuivCGvTQUllOqmhw==
 
-"@sigi/di@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.3.1.tgz#5e79831acd0fdd95bc299afea54d1f22bb2928e2"
-  integrity sha512-GQXcKIwjYwc6np8JgsZuerS3N/x1FXlJ2pSPyUlXBI4kahrXU6SRf5Q0f8Izf+nZKiKTrEuivCGvTQUllOqmhw==
-
 "@sigi/react-router@^2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.3.1.tgz#fd446618da8d52fa5d45ce1f950f10895c7f6d48"
@@ -1628,10 +1623,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.41":
-  version "16.9.41"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.41.tgz#925137ee4d2ff406a0ecf29e8e9237390844002e"
-  integrity sha512-6cFei7F7L4wwuM+IND/Q2cV1koQUvJ8iSV+Gwn0c3kvABZ691g7sp3hfEQHOUBJtccl1gPi+EyNjMIl9nGA0ug==
+"@types/react@*", "@types/react@^16.9.43":
+  version "16.9.43"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.43.tgz#c287f23f6189666ee3bebc2eb8d0f84bcb6cdb6b"
+  integrity sha512-PxshAFcnJqIWYpJbLPriClH53Z2WlJcVZE+NP2etUtWQs2s7yIMj3/LDKZT/5CHJ/F62iyjVCDu2H3jHEXIxSg==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
