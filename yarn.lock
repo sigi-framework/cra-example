@@ -1324,10 +1324,10 @@
     "@sigi/core" "^2.4.0"
     "@sigi/types" "^2.4.0"
 
-"@sigi/di@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.0.tgz#bd31e7f938ddbafa6aeac418473464a7f7b4fee1"
-  integrity sha512-V4tIUgHdXlWEqpeEYxMG5spkcPgVCEGeGWgCzDIItJyl7zhM4BmAO4jXr//sL4a0snTOwKcA++zZtMFtGx7KEg==
+"@sigi/di@^2.4.0", "@sigi/di@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.1.tgz#9c9a296184a56e01df7b4a871d7d041a38a45144"
+  integrity sha512-I1NxWcQiMKDh9PaELx70BZLadqIT0ednA5XxjzLbFHQXTixRGFbaYVWINcMiPQlzuq/RMvESudwMy+YT3FF2WA==
 
 "@sigi/react-router@^2.4.0":
   version "2.4.0"
