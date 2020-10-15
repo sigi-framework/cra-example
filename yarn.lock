@@ -1318,14 +1318,14 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@sigi/core@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.1.tgz#6c745680f4e8c872a4c8d8dad9f3af29b87b4c77"
-  integrity sha512-4ZE+tv2zqoZpkk6YmplKn1bCblnlIRXl2zR43ZZHNPZto/cRS9+ACKqYN2awNr9PGlES1TKqk1Qe/+hdLqASyA==
+"@sigi/core@^2.4.1", "@sigi/core@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.2.tgz#38862d9928b725a4914b95be00ba5b4e0e715fcf"
+  integrity sha512-ztIWrPfp4eoMAm/s7ITlI8r66Wj6wcWQgYrBLUzkmNSY5s6Zun/eQeSOve0PJcjFQiH+miidaJkAPnvSECkvrw==
   dependencies:
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
-    immer "^7.0.8"
+    immer "^7.0.9"
 
 "@sigi/devtool@^2.4.1":
   version "2.4.1"
@@ -1340,22 +1340,22 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.1.tgz#9c9a296184a56e01df7b4a871d7d041a38a45144"
   integrity sha512-I1NxWcQiMKDh9PaELx70BZLadqIT0ednA5XxjzLbFHQXTixRGFbaYVWINcMiPQlzuq/RMvESudwMy+YT3FF2WA==
 
-"@sigi/react-router@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.4.1.tgz#8523126ccacdae34b6158cdffaa5c5072bdc9918"
-  integrity sha512-8CSFu8GN4DQIHSijldjpx8lVzs3RePNXdIbV9FgowFki4sT5pYczh+8o0Uph/7WrRcgGPT0Iu2DB3tmLKDw9GA==
+"@sigi/react-router@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.4.2.tgz#1b9258179ee77a098ab0c4e1ef328706dfa08dd3"
+  integrity sha512-iHg2QIXXggLtd18XRpYKvZXslJr9HCzNvb1f1zAEYuC3RVnXca0EQng5zbyMSjED3Xz8Nqca+W3swe0VTZkWnQ==
   dependencies:
-    "@sigi/core" "^2.4.1"
-    "@sigi/react" "^2.4.1"
+    "@sigi/core" "^2.4.2"
+    "@sigi/react" "^2.4.2"
 
-"@sigi/react@^2.4.0", "@sigi/react@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.1.tgz#b7cf2aa8a54f507eccd20c81ecc4867f225e745b"
-  integrity sha512-6QRbDxFbZz33gCl4Wx3GrXq8yX4fQHa3/Sjw0qFpx1IR9UjKGiLPzhA3vqWxTBrWWlM/igZbm3rBMpQW2GKv1w==
+"@sigi/react@^2.4.0", "@sigi/react@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.2.tgz#9116ab235a85dd87b5c2310d56021938b1807e3c"
+  integrity sha512-RYckrBSw1Gsh2v86pNJO+i2hIwyH26di8QjsSYKNjL+EQHJbT1UgaL/biDntm8GofuicRfmC2XQgu4Bg8GmGqA==
   dependencies:
-    "@sigi/core" "^2.4.1"
+    "@sigi/core" "^2.4.2"
     "@sigi/di" "^2.4.1"
-    "@sigi/ssr" "^2.4.1"
+    "@sigi/ssr" "^2.4.2"
     "@sigi/types" "^2.4.0"
 
 "@sigi/ssr@^2.4.1":
@@ -1367,6 +1367,16 @@
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
     serialize-javascript "^4.0.0"
+
+"@sigi/ssr@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.2.tgz#6cc661d5a221b57d5006480e860e7e9075629758"
+  integrity sha512-5FZmftK8wcOT2TbS0+7vO30EqQvGJ0wR1UrsneAUPbTE4t+lPFxy95hAEdBwbg825SuVx6Vr2kQtmfb4RFoKhw==
+  dependencies:
+    "@sigi/core" "^2.4.2"
+    "@sigi/di" "^2.4.1"
+    "@sigi/types" "^2.4.0"
+    serialize-javascript "^5.0.1"
 
 "@sigi/types@^2.4.0":
   version "2.4.0"
@@ -5283,7 +5293,7 @@ immer@1.10.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
 
-immer@^7.0.8, immer@^7.0.9:
+immer@^7.0.9:
   version "7.0.9"
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.9.tgz#28e7552c21d39dd76feccd2b800b7bc86ee4a62e"
   integrity sha512-Vs/gxoM4DqNAYR7pugIxi0Xc8XAun/uy7AQu4fLLqaTBHxjOP9pJ266Q9MWA/ly4z6rAFZbvViOtihxUZ7O28A==
@@ -9330,6 +9340,13 @@ serialize-javascript@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
   integrity sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw==
+  dependencies:
+    randombytes "^2.1.0"
+
+serialize-javascript@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-5.0.1.tgz#7886ec848049a462467a97d3d918ebb2aaf934f4"
+  integrity sha512-SaaNal9imEO737H2c05Og0/8LUXG7EnsZyMa8MzkmuHoELfT6txuj0cMqRj6zfPKnmQ1yasR4PCJc8x+M4JSPA==
   dependencies:
     randombytes "^2.1.0"
 
