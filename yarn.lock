@@ -1361,16 +1361,6 @@
     "@sigi/ssr" "^2.4.2"
     "@sigi/types" "^2.4.0"
 
-"@sigi/ssr@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.1.tgz#898f67380c610b6b1eed05d889276e3648d1ce5a"
-  integrity sha512-KHkStzbT5AnxucA0iI9gN94zkVjh2uU+4pV0dXeJCOTH0fHNa84Ld94o3nO8vLuEnqKx9c4tCpbYEiCkoO+l2w==
-  dependencies:
-    "@sigi/core" "^2.4.1"
-    "@sigi/di" "^2.4.1"
-    "@sigi/types" "^2.4.0"
-    serialize-javascript "^4.0.0"
-
 "@sigi/ssr@^2.4.2":
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.2.tgz#6cc661d5a221b57d5006480e860e7e9075629758"
