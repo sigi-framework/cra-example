@@ -49,6 +49,6 @@
     "babel-plugin-transform-typescript-metadata": "^0.3.1",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.6",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.4"
   }
 }
