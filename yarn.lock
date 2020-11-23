@@ -1522,14 +1522,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sigi/core@^2.4.1", "@sigi/core@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.2.tgz#38862d9928b725a4914b95be00ba5b4e0e715fcf"
-  integrity sha512-ztIWrPfp4eoMAm/s7ITlI8r66Wj6wcWQgYrBLUzkmNSY5s6Zun/eQeSOve0PJcjFQiH+miidaJkAPnvSECkvrw==
+"@sigi/core@^2.4.1", "@sigi/core@^2.4.2", "@sigi/core@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.3.tgz#e2776f908e6b37e675fc8fa3147e94bc292905f3"
+  integrity sha512-tfvm8OnPmH1ZmRYyyLkb/vj0/0+cr/rmFrO0Dyq0ik35JbWIVu6DY8VPQ2ApzMvoBpTPzjtEePV8694jcPZabg==
   dependencies:
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
-    immer "^7.0.9"
+    immer "^8.0.0"
 
 "@sigi/devtool@^2.4.2":
   version "2.4.2"
@@ -1544,22 +1544,22 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.1.tgz#9c9a296184a56e01df7b4a871d7d041a38a45144"
   integrity sha512-I1NxWcQiMKDh9PaELx70BZLadqIT0ednA5XxjzLbFHQXTixRGFbaYVWINcMiPQlzuq/RMvESudwMy+YT3FF2WA==
 
-"@sigi/react-router@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.4.2.tgz#1b9258179ee77a098ab0c4e1ef328706dfa08dd3"
-  integrity sha512-iHg2QIXXggLtd18XRpYKvZXslJr9HCzNvb1f1zAEYuC3RVnXca0EQng5zbyMSjED3Xz8Nqca+W3swe0VTZkWnQ==
+"@sigi/react-router@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.4.3.tgz#fdb3286725792636bd7c886b803692495a933ab7"
+  integrity sha512-h/brkW9RPd9XKs9ncdiGA6geRkm4mdKd+WCws2yorAz40OcRjF5OLEAf7SwZAH6wyFBfdRVesXDQbEDkOq2lBg==
   dependencies:
-    "@sigi/core" "^2.4.2"
-    "@sigi/react" "^2.4.2"
+    "@sigi/core" "^2.4.3"
+    "@sigi/react" "^2.4.3"
 
-"@sigi/react@^2.4.0", "@sigi/react@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.2.tgz#9116ab235a85dd87b5c2310d56021938b1807e3c"
-  integrity sha512-RYckrBSw1Gsh2v86pNJO+i2hIwyH26di8QjsSYKNjL+EQHJbT1UgaL/biDntm8GofuicRfmC2XQgu4Bg8GmGqA==
+"@sigi/react@^2.4.0", "@sigi/react@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.3.tgz#c6b3f1c52c2c638e1785d07a3423cbbb5dee7399"
+  integrity sha512-OXuIADIX7LSYlbxzzFMRkeli8WgDqoMYVE1EOGzpsKodPkcOOfy5iPzT9CKUAIBriHZhL8Xos5fDvcljr8blBw==
   dependencies:
-    "@sigi/core" "^2.4.2"
+    "@sigi/core" "^2.4.3"
     "@sigi/di" "^2.4.1"
-    "@sigi/ssr" "^2.4.2"
+    "@sigi/ssr" "^2.4.3"
     "@sigi/types" "^2.4.0"
 
 "@sigi/ssr@^2.4.2":
@@ -1568,6 +1568,16 @@
   integrity sha512-5FZmftK8wcOT2TbS0+7vO30EqQvGJ0wR1UrsneAUPbTE4t+lPFxy95hAEdBwbg825SuVx6Vr2kQtmfb4RFoKhw==
   dependencies:
     "@sigi/core" "^2.4.2"
+    "@sigi/di" "^2.4.1"
+    "@sigi/types" "^2.4.0"
+    serialize-javascript "^5.0.1"
+
+"@sigi/ssr@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.3.tgz#eb2447195f81ca0b73644c6d6e01b1a344e001f8"
+  integrity sha512-fGaJeD9ZTmflnZEgBWK3WCHN0hX6PwM26FdoveOYKeQh5OcNwQn6n0AmyvTGZVwo2c/jnDJ7OMfdlHJSIij/FQ==
+  dependencies:
+    "@sigi/core" "^2.4.3"
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
     serialize-javascript "^5.0.1"
@@ -5907,11 +5917,6 @@ immer@7.0.9:
   version "7.0.9"
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.9.tgz#28e7552c21d39dd76feccd2b800b7bc86ee4a62e"
   integrity sha512-Vs/gxoM4DqNAYR7pugIxi0Xc8XAun/uy7AQu4fLLqaTBHxjOP9pJ266Q9MWA/ly4z6rAFZbvViOtihxUZ7O28A==
-
-immer@^7.0.9:
-  version "7.0.14"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.14.tgz#3e605f8584b15a9520d2f2f3fda9441cc9170d25"
-  integrity sha512-BxCs6pJwhgSEUEOZjywW7OA8DXVzfHjkBelSEl0A+nEu0+zS4cFVdNOONvt55N4WOm8Pu4xqSPYxhm1Lv2iBBA==
 
 immer@^8.0.0:
   version "8.0.0"
