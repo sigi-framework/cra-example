@@ -1522,7 +1522,7 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sigi/core@^2.4.1", "@sigi/core@^2.4.2", "@sigi/core@^2.4.3":
+"@sigi/core@^2.4.1", "@sigi/core@^2.4.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.3.tgz#e2776f908e6b37e675fc8fa3147e94bc292905f3"
   integrity sha512-tfvm8OnPmH1ZmRYyyLkb/vj0/0+cr/rmFrO0Dyq0ik35JbWIVu6DY8VPQ2ApzMvoBpTPzjtEePV8694jcPZabg==
@@ -1561,16 +1561,6 @@
     "@sigi/di" "^2.4.1"
     "@sigi/ssr" "^2.4.3"
     "@sigi/types" "^2.4.0"
-
-"@sigi/ssr@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.2.tgz#6cc661d5a221b57d5006480e860e7e9075629758"
-  integrity sha512-5FZmftK8wcOT2TbS0+7vO30EqQvGJ0wR1UrsneAUPbTE4t+lPFxy95hAEdBwbg825SuVx6Vr2kQtmfb4RFoKhw==
-  dependencies:
-    "@sigi/core" "^2.4.2"
-    "@sigi/di" "^2.4.1"
-    "@sigi/types" "^2.4.0"
-    serialize-javascript "^5.0.1"
 
 "@sigi/ssr@^2.4.3":
   version "2.4.3"
