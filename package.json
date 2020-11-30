@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@sigi/core": "^2.4.1",
-    "@sigi/devtool": "^2.4.3",
+    "@sigi/devtool": "^2.4.4",
     "@sigi/di": "^2.4.1",
     "@sigi/react": "^2.4.0",
     "@sigi/react-router": "^2.4.3",
