@@ -8,7 +8,7 @@
     "@sigi/di": "^2.4.1",
     "@sigi/react": "^2.4.4",
     "@sigi/react-router": "^2.4.4",
-    "@sigi/ssr": "^2.4.4",
+    "@sigi/ssr": "^2.4.5",
     "immer": "^8.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
