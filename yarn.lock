@@ -1562,7 +1562,7 @@
     "@sigi/ssr" "^2.4.5"
     "@sigi/types" "^2.4.5"
 
-"@sigi/ssr@^2.4.4", "@sigi/ssr@^2.4.5":
+"@sigi/ssr@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.5.tgz#66d1ff253b64686a2a30386c1cf1881616bb77e8"
   integrity sha512-yzIXh9Zt/hzRq1nAsS55GgLs4dLZNVrH6qgpXQk429N2T/nGVvQVrYxasGWKo8AYInz4ib5cwedEuE3re49a6g==
@@ -1572,7 +1572,7 @@
     "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
 
-"@sigi/types@^2.4.0", "@sigi/types@^2.4.5":
+"@sigi/types@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
   integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
@@ -1896,10 +1896,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^14.14.13":
-  version "14.14.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.13.tgz#9e425079799322113ae8477297ae6ef51b8e0cdf"
-  integrity sha512-vbxr0VZ8exFMMAjCW8rJwaya0dMCDyYW2ZRdTyjtrCvJoENMpdUHOT/eTzvgyA5ZnqRZ/sI0NwqAxNHKYokLJQ==
+"@types/node@*", "@types/node@^14.14.14":
+  version "14.14.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.14.tgz#f7fd5f3cc8521301119f63910f0fb965c7d761ae"
+  integrity sha512-UHnOPWVWV1z+VV8k6L1HhG7UbGBgIdghqF3l9Ny9ApPghbjICXkUJSd/b9gOgQfjM1r+37cipdw/HJ3F6ICEnQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
