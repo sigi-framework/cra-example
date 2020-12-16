@@ -1522,7 +1522,7 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sigi/core@^2.4.1", "@sigi/core@^2.4.4", "@sigi/core@^2.4.5":
+"@sigi/core@^2.4.1", "@sigi/core@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.5.tgz#29c597a053ae3c3425622e5ab7309dc00c3fb595"
   integrity sha512-BUx/oqLEcK5XVKdHFz1xbUIk99bW3pzBBlvm6etvCUbnV9xVjOYIMncNmKVotiKk481Z64utE1heSUTlFlFNng==
@@ -1544,15 +1544,15 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
   integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
 
-"@sigi/react-router@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.4.4.tgz#22662d80ab2b0f8e8a848c532740556152932087"
-  integrity sha512-VTfvuVRCfZ0+Eoy3HCB6+1xJq8ifu8FdVgfX7bJEPZwXNk/3QXPfm276ro6Ou2Lc7tqdOC/+CYL4v/KGhIN/yg==
+"@sigi/react-router@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.4.5.tgz#0d3c4ae30bb7635c300f995afd71710c4f2bbc78"
+  integrity sha512-BcmW5VjoXCpKzZx/RQ82jowjm97OhfkCC6lGjCgc6GBhM6h+bwhKSSl7iYs0JNNYSJsgIAbi9pdZHmxW9HDkOw==
   dependencies:
-    "@sigi/core" "^2.4.4"
-    "@sigi/react" "^2.4.4"
+    "@sigi/core" "^2.4.5"
+    "@sigi/react" "^2.4.5"
 
-"@sigi/react@^2.4.4", "@sigi/react@^2.4.5":
+"@sigi/react@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.5.tgz#ae0738b0896558231f14764542a7487266879e3f"
   integrity sha512-aQ3CtNFaX+uDMOt/XYs18Gjpo7g9ll87BsME6eWdhNTskemr2zeqe7a66e6rmPC6sLWiMaDznc04zz0nz/2Qtg==
