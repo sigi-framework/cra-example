@@ -1540,12 +1540,12 @@
     "@sigi/types" "^2.4.5"
     immer "^8.0.1"
 
-"@sigi/devtool@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.4.5.tgz#95dec4f7c1c3e0bc30237b6e21350e25be66d6ee"
-  integrity sha512-JXKs5yEAH6rgms6YZPpYHC6T/98MAUr8NQam+9RBGHmn9KlAd8/XEn54wmaPK9nCcrIABpvYXv5nNgyho4I2TQ==
+"@sigi/devtool@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.5.1.tgz#5b1a2dc45cf0ec9a7589713ffd5b63e775e8fe3a"
+  integrity sha512-ScEu3IvCjBN47M7FqMhAMxfEbAWXk1t3+cB4+Kev1XQz53jyFrqDl2mNMk1bu/gRmNuQ/czRTj7iY1DWvwXXUg==
   dependencies:
-    "@sigi/core" "^2.4.5"
+    "@sigi/core" "^2.5.1"
     "@sigi/types" "^2.4.5"
 
 "@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
