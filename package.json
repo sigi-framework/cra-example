@@ -7,7 +7,7 @@
     "@sigi/devtool": "^2.5.1",
     "@sigi/di": "^2.4.1",
     "@sigi/react": "^2.5.1",
-    "@sigi/react-router": "^2.5.1",
+    "@sigi/react-router": "^2.6.0",
     "@sigi/ssr": "^2.5.1",
     "immer": "^8.0.1",
     "react": "^17.0.1",
