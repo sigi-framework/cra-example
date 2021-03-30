@@ -2257,14 +2257,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sigi/core@^2.4.1", "@sigi/core@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.5.1.tgz#90b0ba22bde69bcd28f0f308310d6b19ad1a97f6"
-  integrity sha512-40JcSjyXj9Hf4q99pJLgaiWgKzrEoiNYXq+sClgIdnJYFTQqOUmCdB7gS1/hW9EIBfAq1FHqBQY+u9mdXU0WTA==
+"@sigi/core@^2.5.1", "@sigi/core@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.8.2.tgz#be1ffdbc876b5c30c10db8ea67c8faac0db4e37c"
+  integrity sha512-zJO95VEBJagCw+p8ce5b996/GDIhLvoOyotH6TCSy8dIyUEOgEWAozc4JAFOmKe+Gkmr0cuTIhzSbCno37X9yg==
   dependencies:
-    "@sigi/di" "^2.4.4"
+    "@sigi/di" "^2.8.0"
     "@sigi/types" "^2.4.5"
-    immer "^8.0.1"
+    immer "^9.0.1"
 
 "@sigi/devtool@^2.5.1":
   version "2.5.1"
@@ -2274,10 +2274,10 @@
     "@sigi/core" "^2.5.1"
     "@sigi/types" "^2.4.5"
 
-"@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
-  integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
+"@sigi/di@^2.4.1", "@sigi/di@^2.4.4", "@sigi/di@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.8.0.tgz#20e7dbbc06821b1f16bc0885adca036a02e95cf1"
+  integrity sha512-Kf8WYrZHgrqItk1DZnPXp+lpBdY4fbM7L2RZ53NTb8S+zIzoRHbM0gmRFwnQMPtc5B55A0l5rkx0fZYdYtRZhQ==
 
 "@sigi/react-router@^2.7.0":
   version "2.7.0"
@@ -6624,6 +6624,11 @@ immer@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
   integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
+
+immer@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.1.tgz#1116368e051f9a0fd188c5136b6efb74ed69c57f"
+  integrity sha512-7CCw1DSgr8kKYXTYOI1qMM/f5qxT5vIVMeGLDCDX8CSxsggr1Sjdoha4OhsP0AZ1UvWbyZlILHvLjaynuu02Mg==
 
 import-cwd@^2.0.0:
   version "2.1.0"
