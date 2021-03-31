@@ -2257,14 +2257,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sigi/core@^2.4.1", "@sigi/core@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.5.1.tgz#90b0ba22bde69bcd28f0f308310d6b19ad1a97f6"
-  integrity sha512-40JcSjyXj9Hf4q99pJLgaiWgKzrEoiNYXq+sClgIdnJYFTQqOUmCdB7gS1/hW9EIBfAq1FHqBQY+u9mdXU0WTA==
+"@sigi/core@^2.4.1", "@sigi/core@^2.5.1", "@sigi/core@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.8.2.tgz#be1ffdbc876b5c30c10db8ea67c8faac0db4e37c"
+  integrity sha512-zJO95VEBJagCw+p8ce5b996/GDIhLvoOyotH6TCSy8dIyUEOgEWAozc4JAFOmKe+Gkmr0cuTIhzSbCno37X9yg==
   dependencies:
-    "@sigi/di" "^2.4.4"
+    "@sigi/di" "^2.8.0"
     "@sigi/types" "^2.4.5"
-    immer "^8.0.1"
+    immer "^9.0.1"
 
 "@sigi/devtool@^2.5.1":
   version "2.5.1"
@@ -2274,29 +2274,29 @@
     "@sigi/core" "^2.5.1"
     "@sigi/types" "^2.4.5"
 
-"@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
-  integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
+"@sigi/di@^2.4.1", "@sigi/di@^2.4.4", "@sigi/di@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.8.0.tgz#20e7dbbc06821b1f16bc0885adca036a02e95cf1"
+  integrity sha512-Kf8WYrZHgrqItk1DZnPXp+lpBdY4fbM7L2RZ53NTb8S+zIzoRHbM0gmRFwnQMPtc5B55A0l5rkx0fZYdYtRZhQ==
 
-"@sigi/react-router@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.7.0.tgz#812928f59bcc073748ad5bdc071f4d8f92258dda"
-  integrity sha512-xNSgNc/IHVvdUgP4x18Gis4+7v9NH0OOcCkGmw3Ki0tMQ4CeUDnJN8Zrx5qdQCIMb2kDN0a2VEnAR0aH/ZPplw==
+"@sigi/react-router@^2.8.4":
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.8.4.tgz#5d16d84d9a2750dd077111cadcc1e6fe93752605"
+  integrity sha512-3Mq5e/qQbJEzjcc0uXO7lPGugBFIYzqnQzK3st12AxHpRuquNWqsiZ5oY4do2sN87t9EZYGIjGN8d4nlmbkQ7Q==
   dependencies:
-    "@sigi/core" "^2.5.1"
-    "@sigi/di" "^2.4.4"
-    "@sigi/react" "^2.7.0"
+    "@sigi/core" "^2.8.2"
+    "@sigi/di" "^2.8.0"
+    "@sigi/react" "^2.8.4"
     "@sigi/types" "^2.4.5"
 
-"@sigi/react@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.7.0.tgz#8df082ca93054241f0bde4e1317e65758c2be552"
-  integrity sha512-b3fBz5Av6U+ZYoagLKi8wrM0ic2qqsfL4V125OAELR9SO8GJywNFjLVupjD02WilqWxfrDFZu3CJKFgABT5vnA==
+"@sigi/react@^2.7.0", "@sigi/react@^2.8.4":
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.8.4.tgz#b17b1fe28e003b25ad6dbbc29c5090b0409c7ddd"
+  integrity sha512-0eu4XI4aqNR+lEN2c1LbMdydn8ya+xczb2pdSGTFdHlK1iP2z/cQpXvVKzkBfCMckpCz7dcx8iuUZ7niszs+EQ==
   dependencies:
-    "@sigi/core" "^2.5.1"
-    "@sigi/di" "^2.4.4"
-    "@sigi/ssr" "^2.7.0"
+    "@sigi/core" "^2.8.2"
+    "@sigi/di" "^2.8.0"
+    "@sigi/ssr" "^2.8.2"
     "@sigi/types" "^2.4.5"
 
 "@sigi/ssr@^2.7.0":
@@ -2306,6 +2306,16 @@
   dependencies:
     "@sigi/core" "^2.5.1"
     "@sigi/di" "^2.4.4"
+    "@sigi/types" "^2.4.5"
+    serialize-javascript "^5.0.1"
+
+"@sigi/ssr@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.8.2.tgz#bca5b00497c209b11064e0dece58890bdcab28cc"
+  integrity sha512-JXhjSXYAyBHal0rQ92kjlQv22y+ungt+ICquade90nniXI3e/tHQIlerUU1/w1QGZgDp3Jawe0an5KzFn4hGkQ==
+  dependencies:
+    "@sigi/core" "^2.8.2"
+    "@sigi/di" "^2.8.0"
     "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
 
@@ -6624,6 +6634,11 @@ immer@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
   integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
+
+immer@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.1.tgz#1116368e051f9a0fd188c5136b6efb74ed69c57f"
+  integrity sha512-7CCw1DSgr8kKYXTYOI1qMM/f5qxT5vIVMeGLDCDX8CSxsggr1Sjdoha4OhsP0AZ1UvWbyZlILHvLjaynuu02Mg==
 
 import-cwd@^2.0.0:
   version "2.1.0"
