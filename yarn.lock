@@ -2257,14 +2257,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sigi/core@^2.4.1", "@sigi/core@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.5.1.tgz#90b0ba22bde69bcd28f0f308310d6b19ad1a97f6"
-  integrity sha512-40JcSjyXj9Hf4q99pJLgaiWgKzrEoiNYXq+sClgIdnJYFTQqOUmCdB7gS1/hW9EIBfAq1FHqBQY+u9mdXU0WTA==
+"@sigi/core@^2.10.8", "@sigi/core@^2.4.1", "@sigi/core@^2.5.1":
+  version "2.10.8"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.10.8.tgz#79baee4400c95180c4ff33fef3db22b11b64e8f6"
+  integrity sha512-feMRxCgfS1lWpop4sy1GgdAFTdvCIL5eF3UCBTyitZw5tuFa9Llp8/hGtpNmINuOYiMseyoAFsUaRJpq63An5A==
   dependencies:
-    "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.5"
-    immer "^8.0.1"
+    "@sigi/di" "^2.10.2"
+    "@sigi/types" "^2.10.2"
+    tslib "^2.2.0"
 
 "@sigi/devtool@^2.5.1":
   version "2.5.1"
@@ -2274,30 +2274,46 @@
     "@sigi/core" "^2.5.1"
     "@sigi/types" "^2.4.5"
 
-"@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
-  integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
-
-"@sigi/react-router@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.7.0.tgz#812928f59bcc073748ad5bdc071f4d8f92258dda"
-  integrity sha512-xNSgNc/IHVvdUgP4x18Gis4+7v9NH0OOcCkGmw3Ki0tMQ4CeUDnJN8Zrx5qdQCIMb2kDN0a2VEnAR0aH/ZPplw==
+"@sigi/di@^2.10.2", "@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.10.2.tgz#b97a5ada1c0e52281f55a4596a6800ae9e129fa7"
+  integrity sha512-iLUQgryCGAq6Dj8O4USKZF2UiqBfjPecIttqbu38pwdAEjyNHhd/bRAl1dVWAJ3VlRhLNhEEulS+X/UE5kZing==
   dependencies:
-    "@sigi/core" "^2.5.1"
-    "@sigi/di" "^2.4.4"
-    "@sigi/react" "^2.7.0"
-    "@sigi/types" "^2.4.5"
+    tslib "^2.2.0"
 
-"@sigi/react@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.7.0.tgz#8df082ca93054241f0bde4e1317e65758c2be552"
-  integrity sha512-b3fBz5Av6U+ZYoagLKi8wrM0ic2qqsfL4V125OAELR9SO8GJywNFjLVupjD02WilqWxfrDFZu3CJKFgABT5vnA==
+"@sigi/react-router@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react-router/-/react-router-2.11.0.tgz#12cf90abd6428d81b4328dca56880944aaf5826e"
+  integrity sha512-gOf7cM9LAGxtV9MdirB5cZq+o69YGvCcGMLrlT1HqQcCdI7Y3RRk5PWGTfE2LgufTlAkVhyPzu2xdDcl57JqcA==
   dependencies:
-    "@sigi/core" "^2.5.1"
-    "@sigi/di" "^2.4.4"
-    "@sigi/ssr" "^2.7.0"
-    "@sigi/types" "^2.4.5"
+    "@sigi/core" "^2.10.8"
+    "@sigi/di" "^2.10.2"
+    "@sigi/react" "^2.11.0"
+    "@sigi/types" "^2.10.2"
+    tslib "^2.2.0"
+
+"@sigi/react@^2.11.0", "@sigi/react@^2.7.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.11.0.tgz#c0a73e58a322a0f3fc486264c018e71afa51ede1"
+  integrity sha512-k0Fs7R2gFZDyhVat8tEyE7fpVAnCO+1Fg+Crni7CvG05LTvacG0kG/fyCbUQaAcU+5J8FZe2sYSDl8mZxeQ0sg==
+  dependencies:
+    "@sigi/core" "^2.10.8"
+    "@sigi/di" "^2.10.2"
+    "@sigi/ssr" "^2.11.0"
+    "@sigi/types" "^2.10.2"
+    tslib "^2.2.0"
+
+"@sigi/ssr@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.11.0.tgz#5b6136e9dc02ec58473629b331672a4a1acebd97"
+  integrity sha512-sJBQbVJd0OGO/l703tEaRJ7soXIM8iEgAICGyP9s8qEp4t3U9KY/n3tNNjpbbr+CNDU1av6cYWXXn1KEdxXHDA==
+  dependencies:
+    "@sigi/core" "^2.10.8"
+    "@sigi/di" "^2.10.2"
+    "@sigi/types" "^2.10.2"
+    path-to-regexp "^6.2.0"
+    serialize-javascript "^5.0.1"
+    tslib "^2.2.0"
 
 "@sigi/ssr@^2.7.0":
   version "2.7.0"
@@ -2309,10 +2325,10 @@
     "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
 
-"@sigi/types@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
-  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
+"@sigi/types@^2.10.2", "@sigi/types@^2.4.5":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.10.2.tgz#e1fd9ba7cedd46610ddcfcf26354b3023038b1ff"
+  integrity sha512-2hrzS/7Dyj7y2U3C6RI0V8dPFahHCIYnA/sdwibzPxxEx+CWutRagarI/4mbS9yS2CMBWhLdWD6osPQR2mpmZA==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -8961,6 +8977,11 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path-to-regexp@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.2.0.tgz#f7b3803336104c346889adece614669230645f38"
+  integrity sha512-f66KywYG6+43afgE/8j/GoiNyygk/bnoCbps++3ErRKsIYkGGupyv07R2Ok5m9i67Iqc+T2g1eAUGUPzWhYTyg==
+
 path-type@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
@@ -11702,6 +11723,11 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
+
+tslib@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
 tsutils@^3.17.1:
   version "3.17.1"
